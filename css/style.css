@@ -509,6 +509,25 @@ span{
         text-align: center;
         margin-top: 5px;
     }
+    .study-content{
+        grid-template-columns: 1fr;
+    }
+    .row-study{
+        padding: 30px 20px;
+    }
+    .row-study img{
+        max-width: 100%;
+        width: 500px;
+        height: auto;
+    }
+    .portfolio-content{
+        grid-template-columns: 1fr;
+    }
+    .box img{
+        max-width: 100%;
+        width: 500px;
+        height: auto;
+    }
     .contact{
         grid-template-columns: 1fr;
     }
