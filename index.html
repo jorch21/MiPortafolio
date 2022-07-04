@@ -238,7 +238,7 @@
         <div class="contact-form">
             <h2>Contáctame</h2>
             <p>Conecta conmigo a través del teléfono: 944997399 o email: jordiemucha@gmail.com</p>
-            <form onsubmit="sendEmail()">
+            <form id="form" action="https://formspree.io/f/myyoqylq" method="POST">
                 <input type="text" name="name" placeholder="Tu Nombre" required>
                 <input type="email" name="email" placeholder="Tu Correo" required>
                 <input type="text" name="subject" placeholder="Asunto" required>
@@ -259,6 +259,6 @@
 
     <!-- Enlace a JavaScript -->
     <script src="js/script.js"></script>
-    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+    <script src="js/mail.js"></script>
 </body>
 </html>
