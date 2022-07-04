@@ -14,7 +14,8 @@
     --text-color: #FFF;
     --secound-color: #C6C9D8BF;
     /* --main-color: #F9004D; */
-    --main-color: #008E9B;
+    /* --main-color: #008E9B; */
+    --main-color: #0878FF;
     --big-font: 5.3rem;
     --big-font-dev: 2rem;
     --h2-font: 4.2rem;
@@ -144,7 +145,7 @@ span{
     border-radius: 10px;
     position: absolute;
     right: 10%;
-    top: 10%;
+    top: 20%;
     opacity: .7;
 }
 /* Estilos para la seccion Acerca de Mi */
@@ -414,7 +415,7 @@ span{
 }
 
 
-@media (max-width: 1270px){
+@media (max-width: 1290px){
     header{
         padding: 18px 4%;
         transition: .2s;
@@ -428,10 +429,14 @@ span{
         transition: .2s;
     }
     :root{
-        --big-font: 4.8rem;
-        --h2-font: 3.8rem;
+        --big-font: 4.5rem;
+        --h2-font: 3.5rem;
         --p-font: 1rem;
         transition: .2s;
+    }
+    .home-img img{
+        width: 500px;
+        right: 10%;
     }
 }
 
@@ -496,7 +501,7 @@ span{
         font-size: 3rem;
     }
     .skills-content{
-        grid-template-columns: repeat(auto-fit, minmax(100px,auto));
+        grid-template-columns: repeat(auto-fit, minmax(80px,auto));
     }
     .row img{
         max-width: 100%;
