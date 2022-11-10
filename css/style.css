@@ -241,7 +241,7 @@ span.auto-type{
 }
 .skills-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(80px,auto));
+    grid-template-columns: repeat(auto-fit, minmax(80px,150px));
     grid-gap: 2rem;
     align-items: center;
     margin-top: 1rem;
